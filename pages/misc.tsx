@@ -14,8 +14,8 @@ const Misc: NextPage<unknown> = () => {
 
     return (
         <div className="items-center">
-            <a class="twitter-timeline" width="280" height="300" href="https://twitter.com/jk_rowling?ref_src=twsrc%5Etfw">Tweets by jk_rowling</a> 
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            TBD
+            {/*<a class="twitter-timeline" width="280" height="300" href="https://twitter.com/jk_rowling?ref_src=twsrc%5Etfw">Tweets by jk_rowling</a> {<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>}*/}
         </div>
     );
 };

@@ -36,9 +36,6 @@ $ npm run dev
 # Build for production
 $ npm run build
 
-# Lint
-$ npm test
-
 # If you deploy on Vercel
 # preview
 $ vercel
