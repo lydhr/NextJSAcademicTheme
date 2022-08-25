@@ -1,0 +1,30 @@
+{
+    "title": "Harry Potter",
+    "name": "Harry James Potter",
+    "domain":"harrypotter.me",
+    "copyright":"harrypotter.me",
+    "socialMedia": {
+        "Twitter": "https://twitter.com/",
+        "LinkedIn": "https://www.linkedin.com/",
+        "GoogleScholar": "https://scholar.google.com/"
+    },
+    "about": {
+        "year": "7th-year",
+        "department": {
+            "name": "Gryffindor",
+            "link": "https://harrypotter.fandom.com/wiki/Gryffindor"
+        },
+        "college": {
+            "name": "Hogwarts School of Witchcraft and Wizardry",
+            "link": "https://harrypotter.fandom.com/wiki/Hogwarts_School_of_Witchcraft_and_Wizardry"
+        },
+        "advisor": {
+            "name": "Albus Dumbledor",
+            "link": "https://harrypotter.fandom.com/wiki/Albus_Dumbledore"
+        },
+        "email": "harrypotter AT MyUniversity",
+        "interest": "Defense against Dark Arts Spell; Dark Creatures"
+    },
+    "love": "https://harrypotter.fandom.com/wiki/James_and_Lily_Potter"
+
+}

@@ -1,0 +1,73 @@
+{
+    "name": "academic-personal-site",
+    "version": "1.0.0",
+    "scripts": {
+        "build": "next build",
+        "dev": "next dev",
+        "start": "next start",
+        "export": "next export",
+        "test": "xo"
+    },
+    "xo": {
+        "envs": [
+            "node",
+            "browser"
+        ],
+        "extends": [
+            "xo-typescript",
+            "xo-react"
+        ],
+        "rules": {
+            "import/no-unassigned-import": "off",
+            "import/extensions": "off",
+            "unicorn/string-content": "off",
+            "no-mixed-operators": "off",
+            "@typescript-eslint/prefer-readonly-parameter-types": "off",
+            "@typescript-eslint/restrict-template-expressions": "off",
+            "node/no-unsupported-features/es-syntax": "off"
+        },
+        "extensions": [
+            "tsx",
+            "ts"
+        ],
+        "ignores": [
+            "babel.config.js",
+            "next.config.js",
+            "postcss.config.js",
+            "tailwind.config.js"
+        ]
+    },
+    "dependencies": {
+        "@headlessui/react": "^1.0.0",
+        "@n8tb1t/use-scroll-position": "^2.0.3",
+        "graphql": "^15.5.0",
+        "graphql-request": "^3.4.0",
+        "next": "^10.2.3",
+        "next-themes": "0.0.14",
+        "react": "17.0.2",
+        "react-dom": "17.0.2",
+        "react-feather": "^2.0.9",
+        "react-loader-spinner": "^5.1.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.13.16",
+        "@types/react": "^17.0.3",
+        "@typescript-eslint/eslint-plugin": "^4.22.0",
+        "@typescript-eslint/parser": "^4.22.0",
+        "autoprefixer": "^10.2.5",
+        "critters": "0.0.10",
+        "eslint-config-xo-react": "^0.25.0",
+        "eslint-config-xo-typescript": "^0.39.0",
+        "eslint-plugin-react": "^7.23.2",
+        "eslint-plugin-react-hooks": "^4.2.0",
+        "json-schema": "^0.3.0",
+        "next-offline": "^5.0.5",
+        "postcss": "^8.2.10",
+        "tailwindcss": "^2.2.19",
+        "typescript": "^4.2.4",
+        "xo": "^0.39.1"
+    },
+    "resolutions": {
+        "webpack": "^5.28.0"
+    }
+}
