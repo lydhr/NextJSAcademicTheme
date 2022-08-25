@@ -25,6 +25,17 @@
         "email": "harrypotter AT MyUniversity",
         "interest": "Defense against Dark Arts Spell; Dark Creatures"
     },
-    "love": "https://harrypotter.fandom.com/wiki/James_and_Lily_Potter"
+    "love": "https://harrypotter.fandom.com/wiki/James_and_Lily_Potter",
+    "education": [
+        {
+            "name": "The Auror Department(2007-2008, Visiting Scholar)",
+            "link": "https://harrypotter.fandom.com/wiki/British_Auror_Office"
+        },
+        {
+            "name": "Hogwarts Primary University(1911-1988, Bachelor's in Magic)",
+            "link": "https://harrypotter.fandom.com/wiki/Hogwarts_School_of_Witchcraft_and_Wizardry"
+        }
+    ]
+
 
 }
