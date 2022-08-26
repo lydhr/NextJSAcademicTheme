@@ -11,9 +11,9 @@ const Education = (): JSX.Element => {
                 {
                     data.education.map((education, index) => {
                         if (index == 0){
-                            return <ExtLink href="{education.link}">{education.name}</ExtLink>
+                            return <ExtLink href={education.link}>{education.name}</ExtLink>
                         }else{
-                            return <ExtLink href="{education.link}">, {education.name}</ExtLink>
+                            return <ExtLink href={education.link}>, {education.name}</ExtLink>
                         }
                     })
                 }
