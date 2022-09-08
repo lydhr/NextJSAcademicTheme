@@ -8,6 +8,7 @@
 - in components/data/publications.json
 - in components/data/projects.json
 - in components/data/teaching.json
+- in .env
 ---
 
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
