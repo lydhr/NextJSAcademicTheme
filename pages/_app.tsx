@@ -17,6 +17,7 @@ const App = ({Component, pageProps}: Readonly<AppProps>): JSX.Element => {
 				<GoogleTag/>
 				<title>{personalInfo.title}</title>
 				<link rel="canonical" href={personalInfo.domain}/>
+				<link rel="icon" href="/favicon/favicon.ico"/>
 				<meta name="description" content={personalInfo.name+"'s personal website"}/>
 				<meta property="og:description" content={personalInfo.name+"'s personal website"}/>
 				<meta property="og:image" content="/favicon/favicon.ico"/>
