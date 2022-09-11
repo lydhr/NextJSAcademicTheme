@@ -1,4 +1,4 @@
-import React, {ReactNode} from 'react';
+import {ReactNode} from 'react';
 import ExtLink from './ExtLink';
 import {Twitter, Linkedin, Book} from 'react-feather';
 import personalInfo from './data/personalInfo.json'

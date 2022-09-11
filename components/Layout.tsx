@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import {useState, useEffect} from 'react';
 import {useScrollPosition} from '@n8tb1t/use-scroll-position';
 import {useTheme} from 'next-themes';
 
@@ -10,7 +10,7 @@ interface Props {
 	children: React.ReactNode;
 }
 
-const Container = ({children}: Props): JSX.Element => {
+const Layout = ({children}: Props): JSX.Element => {
 	const [mounted, setMounted] = useState(false);
 	const [scrolled, setScrolled] = useState(false);
 	const {resolvedTheme, setTheme} = useTheme();
@@ -30,10 +30,10 @@ const Container = ({children}: Props): JSX.Element => {
 	return (
 		<>
 			<Header mounted = {mounted} resolvedTheme = {resolvedTheme} setTheme = {setTheme} scrolled = {scrolled}/>
-			{children}
+			<main>{children}</main>
 			<Footer/>
 		</>
 	);
 };
 
-export default Container;
+export default Layout;

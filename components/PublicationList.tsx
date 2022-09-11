@@ -1,4 +1,3 @@
-import React from 'react';
 import PublicationItem from './PublicationItem'
 import data from './data/publications.json'
 

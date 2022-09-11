@@ -1,5 +1,3 @@
-import React from 'react';
-
 interface ProjectProps {
     project: any;
     index: number;

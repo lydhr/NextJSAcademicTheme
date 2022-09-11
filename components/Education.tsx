@@ -1,4 +1,3 @@
-import React from 'react';
 import ExtLink from './ExtLink'
 import data from './data/personalInfo.json'
 

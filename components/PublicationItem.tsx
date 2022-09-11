@@ -1,4 +1,3 @@
-import React from 'react';
 import ExtLink from './ExtLink';
 
 interface Props {

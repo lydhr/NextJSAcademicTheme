@@ -28,7 +28,6 @@ const nextConfig = {
 		optimizeCss: true
 	},
     future: {
-        webpack5: true,
         strictPostcssConfiguration: true
 	},
 	poweredByHeader: false
