@@ -13,8 +13,8 @@ const App = ({Component, pageProps}: Readonly<AppProps>): JSX.Element => {
 
 	return (
 		<ThemeProvider attribute="class">
+			<GoogleTag/>
 			<Head>
-				<GoogleTag/>
 				<title>{personalInfo.title}</title>
 				<link rel="canonical" href={personalInfo.domain}/>
 				<link rel="icon" href="/favicon/favicon.ico"/>
