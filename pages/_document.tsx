@@ -13,12 +13,8 @@ export default class MyDocument extends Document {
 			<Html lang="en">
 				<Head>
 					<meta charSet="utf-8"/>
-					<meta name="theme-color" content="black"/>
 					<meta name="apple-mobile-web-app-capable" content="yes"/>
-					<meta property="og:locale" content="en_US"/>
-					<meta property="og:type" content="website"/>
-					<link rel="icon" href="/favicon/favicon.ico"/>
-					<link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
+					<link rel="apple-touch-icon" href="/favicon/apple-touch-icon.png"/>
 					<link rel="manifest" href="/site.webmanifest"/>
 					<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126635126-1"></script>
 				  	<script

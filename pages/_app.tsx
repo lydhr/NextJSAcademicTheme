@@ -19,6 +19,8 @@ const App = ({Component, pageProps}: Readonly<AppProps>): JSX.Element => {
 				<meta name="description" content={personalInfo.name+"'s personal website"}/>
 				<meta property="og:description" content={personalInfo.name+"'s personal website"}/>
 		        <meta property="og:image" content="/favicon/favicon.ico"/>
+				<meta property="og:locale" content="en_US"/>
+				<meta property="og:type" content="website"/>
 			</Head>
 			<Container>
 				<main className="flex flex-col m-auto leading max-w-4xl items-start p-5">
