@@ -13,9 +13,9 @@ const PublicationItem = ({publication, index}: Props): JSX.Element => {
                 <a className = "text-sm">{publication.conference}</a>
             </p>
             <p className = "text-gray-500 flex justify-end text-sm bold">
-                <ExtLink href={publication.pdf}> [pdf] &nbsp;</ExtLink>
-                <ExtLink href={publication.slides}> [slides] &nbsp;</ExtLink>
-                <ExtLink href={publication.video}> [video] </ExtLink>
+                {publication.links.map((linkItem: any, idx: any) => (
+                    <ExtLink href={linkItem.url} key={idx}> [{linkItem.name}] &nbsp;</ExtLink>
+                ))}                
             </p>
             
         </div>
