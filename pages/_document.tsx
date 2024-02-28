@@ -15,17 +15,6 @@ export default class MyDocument extends Document {
 					<meta name="apple-mobile-web-app-capable" content="yes"/>
 					<link rel="apple-touch-icon" href="/favicon/apple-touch-icon.png"/>
 					<link rel="manifest" href="/site.webmanifest"/>
-					<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126635126-1"></script>
-				  	<script
-					    dangerouslySetInnerHTML={{
-					      __html: `
-					            window.dataLayer = window.dataLayer || [];
-					            function gtag(){dataLayer.push(arguments);}
-					            gtag('js', new Date());
-					            gtag('config', 'UA-126635126-1');
-					        `,
-					    }}
-					/>
 				</Head>
 				<body className="items-center justify-center bg-white dark:bg-black text-black dark:text-white font-sans text-lg">
 					<Main/>
