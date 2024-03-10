@@ -14,12 +14,11 @@ const Header = ({mounted, resolvedTheme, setTheme, scrolled}: HeaderProps): JSX.
         <header className={`z-10 pt-10 pb-1 mb-10 pl-0 top-0 right-0 left-0 transition border-b ${scrolled ? 'border-gray-400' : 'bg-transparent border-transparent'} sticky w-screen backdrop-filter backdrop-blur-md`}>
             <div className="h-0 pb-9 pl-5 max-w-4xl w-full flex items-center justify-between m-auto">
                 <Link href="/">
-                    <a>
-                        <Image className="cursor-pointer transition-colors flex !p-1 rounded-md mr-8 hover:bg-gray-300 text-lg dark:filter dark:invert"
-                            src="/favicon/favicon.svg"
-                            width={45}
-                            height={45}/>
-                    </a>
+                    <Image className="cursor-pointer transition-colors flex !p-1 rounded-md mr-8 hover:bg-gray-300 text-lg dark:filter dark:invert"
+                        src="/favicon/favicon.svg"
+                        width={45}
+                        height={45}
+                        alt="favicon"/>
                 </Link>
                 <nav className="flex items-center justify-between pr-4">
                     <NavLink title="About" href="/#about"/>

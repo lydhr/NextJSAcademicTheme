@@ -2,9 +2,8 @@ import Document, {Html, Head, Main, NextScript, DocumentContext} from 'next/docu
 
 export default class MyDocument extends Document {
 	static async getInitialProps(ctx: DocumentContext) {
-		const page = ctx.renderPage();
-
-		return {...page};
+		const initialProps = await Document.getInitialProps(ctx);
+        return { ...initialProps };
 	}
 
 	render(): JSX.Element {
